@@ -83,7 +83,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - 4chan.org
 - yelp.com
 - okcupid.com
-- zendesk.com
+- zendesk.com ([not affected](https://help.zendesk.com/hc/en-us/articles/115003417127))
 - uber.com
 - namecheap.com ([not affected](https://status.namecheap.com/archives/30660))
 - poloniex.com
