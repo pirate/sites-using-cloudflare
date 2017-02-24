@@ -6,7 +6,9 @@ Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id
 ### DISCLAIMER:
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
-Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
+Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.  
+
+See [issue #127](https://github.com/pirate/sites-using-cloudflare/issues/127#issuecomment-282385955) and [issue #87](https://github.com/pirate/sites-using-cloudflare/issues/87#issuecomment-282372235) for additional info about which sites are likely to be affected.
 
 ## Impact
 
