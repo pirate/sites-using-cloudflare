@@ -33,7 +33,7 @@ Theoretically sites not in this list can also be affected (because an affected s
 ## Methodology
 
 This list was compiled from 3 large dumps of all Cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
-Crimeshare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
+Crimeflare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
 
 I scraped the Alexa top 10,000 by using a simple loop over the list:
 
@@ -44,7 +44,7 @@ for domain in (cat ~/Desktop/alexa_10000.csv)
     end
 end
 ```
-The Alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+The Alexa scrape, and the Crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
 
 Data sources:
  - https://stackshare.io/cloudflare
