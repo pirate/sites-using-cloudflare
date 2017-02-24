@@ -77,7 +77,9 @@ Some sources:
 - patreon.com
 - producthunt.com
 - bitpay.com
+- 
 - irccloud.com
+- betterment.com
 
 ## Alexa Top 10,000 affected sites:
 
