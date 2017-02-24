@@ -12,6 +12,7 @@ Some sources:
 
 ==============
 
+- news.ycombinator.com
 - coinbase.com
 - reddit.com
 - yelp.com
@@ -22,3 +23,11 @@ Some sources:
 - reddit.com
 - uber.com
 - lyft.com
+- upwork.com
+- codepen.io
+- medium.com
+- fiverr.com
+- thepiratebay.org
+- getbootstrap.com
+- laravel.com
+- laracasts.com
