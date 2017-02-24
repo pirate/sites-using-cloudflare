@@ -7,9 +7,9 @@ This list will be narrowed down to the affected domains as I get more informatio
 
 
 ### HOW TO REMOVE YOUR SITE
-1. verify the site is static and contains no user data (I will remove it immediately once I confirm)
-OR
+1. verify the site is static and contains no user data (I will remove it immediately once I confirm)  
+OR  
 1. Verify ownership, send me an email from @yourdomain.com, post a random nonce on the domain, or provide keybase proof
-2. Verify you are not using the Cloudflare TLS proxy
+2. Verify you are not using the Cloudflare proxy service
 
 I will not remove sites that contain user data and are returning `server:cloudflare-nginx` in response headers, since they may have been affected.
