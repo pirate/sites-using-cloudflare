@@ -91,7 +91,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - kraken.com
 - 23andme.com
 - curse.com (and some other Curse sites like minecraftforum.net)
-- counsyl.com
+- counsyl.com 
 - tfl.gov.uk
 - stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
 - fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
@@ -1151,7 +1151,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - taringa.net
 - taxheaven.gr
 - te3p.com
-- teamliquid.net
+- teamliquid.net ([not affected](https://twitter.com/R1CH_TL/status/835117417395326977))
 - techdirt.com
 - techinasia.com
 - tech-wd.com
