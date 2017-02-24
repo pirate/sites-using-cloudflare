@@ -4,7 +4,7 @@ This is a (work-in-progress) list of domains possibly affected by the [CloudBlee
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
 ### DISCLAIMER:
-This list contains *all* domains that use cloudflare DNS, not just the cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
+This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
 
@@ -24,15 +24,15 @@ Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-
 ## What should I do?
 
 Check your password managers and **change all your passwords**, especially those on these affected sites.
-Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
+Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* Cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
-**Submit PR's to add domains that you know are using cloudflare, or remove domains that are not affected.**
+**Submit PR's to add domains that you know are using Cloudflare, or remove domains that are not affected.**
 
 ## Methodology
 
-This list was compiled from 3 large dumps of all cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
+This list was compiled from 3 large dumps of all Cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
 Crimeshare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
 
 I scraped the Alexa top 10,000 by using a simple loop over the list:
@@ -51,10 +51,10 @@ Data sources:
  - https://wappalyzer.com/applications/cloudflare
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
  - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
- - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
+ - http://www.crimeflare.com/cfs.html (scrape of all Cloudflare customers)
  - http://www.doesitusecloudflare.com/
 
-I'd rather be safe than sorry so I've included any domain here that remotely touches cloudflare.
+I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.
 If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.
 
 You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
