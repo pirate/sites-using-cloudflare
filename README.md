@@ -61,7 +61,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - news.ycombinator.com
 - producthunt.com
 - medium.com
-- reddit.com
 - 4chan.org
 - yelp.com
 - okcupid.com
