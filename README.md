@@ -1132,7 +1132,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - stereogum.com
 - stocktwits.com
 - stopforumspam.com
-- storenvy.com ([not affected](https://twitter.com/Storenvy/status/831638898354778112))
+- storenvy.com ([no evidence of data leaked](https://twitter.com/Storenvy/status/831638898354778112))
 - streamhunter.eu
 - stream-tv.me
 - stuffgate.com
