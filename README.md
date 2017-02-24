@@ -1,10 +1,10 @@
 # List of Sites possibly affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
 
-
-### DISCLAIMER:
-This list contains *all* domains that use cloudflare DNS, not just the cloudflare SSL proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised.  This list will be narrowed down to the affected domains as I get more information.
 This is a (work-in-progress) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
+
+### DISCLAIMER:
+This list contains *all* domains that use cloudflare DNS, not just the cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
 
@@ -28,9 +28,9 @@ Rotate API keys & secrets, and confirm you have 2-FA set up for important accoun
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
-**Submit PR's to add domains that you know are using cloudflare**
+**Submit PR's to add domains that you know are using cloudflare, or remove domains that are not affected.**
 
-### Methodology
+## Methodology
 
 This list was compiled from 3 large dumps of all cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
 Crimeshare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
