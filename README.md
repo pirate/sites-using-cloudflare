@@ -25,9 +25,23 @@ Theoretically sites not in this list can also be affected (because an affected s
 
 **Submit PR's to add domains that you know are using cloudflare**
 
-I'm working on running a DNS scraper that will add thousands more domains to this list automatically, so check back periodically for updates as we find more domains.
+### Methodology
 
-Some sources:
+This list was compiled from 3 large dumps of all cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
+Crimeshare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
+
+I scraped the Alexa top 10,000 by using a simple loop over the list:
+
+```fish
+for domain in (cat ~/Desktop/alexa_10000.csv)
+    if dig $domain NS | grep cloudflare
+        echo $domain >> affected.txt
+    end
+end
+```
+The alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+
+Data sources:
  - https://stackshare.io/cloudflare
  - https://wappalyzer.com/applications/cloudflare
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
@@ -38,7 +52,6 @@ I'd rather be safe than sorry so I've included any domain here that remotely tou
 If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.
 
 You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
-
 
 ## Full List
 
