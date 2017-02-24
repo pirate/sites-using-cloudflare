@@ -1,7 +1,18 @@
-# sites-using-cloudflare
+# Sites affected by Cloudflare's #Cloudbleed HTTPS traffic leak
 List of domains affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).  Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
-Check your password managers and change passwords on these affected sites.  Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), so to be safe you should probably change all your important passwords.
+## Impact
+
+Passwords, private messages, API keys, and other sensitive data were leaked by cloudflare to random requesters between these dates: **2016-09-22 - 2017-02-18 **.
+Data may be cached by search engines, or collected by random adversaries over the past few months.
+
+ "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
+
+## What should I do?
+
+Check your password managers and **change all your passwords**, especially those on these affected sites.  
+Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.
+Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), so to be safe you should probably change all your important passwords.
 
 **Submit PR's to add domains that you know are using cloudflare**
 
