@@ -13,7 +13,7 @@ Cloudflare has not provided an official list of affected domains, and likely wil
 **Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**
 Data was cached by search engines, and may have been collected by random adversaries over the past few months.
 
-Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was trigerred the response would include data from ANY other cloudfare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using CloudFare's proxy services (including HTTP & HTTPS proxy).
+Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was triggered the response would include data from ANY other Cloudflare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using Cloudflare's proxy services (including HTTP & HTTPS proxy).
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
@@ -44,7 +44,7 @@ for domain in (cat ~/Desktop/alexa_10000.csv)
     end
 end
 ```
-The alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+The Alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
 
 Data sources:
  - https://stackshare.io/cloudflare
@@ -55,7 +55,7 @@ Data sources:
  - http://www.doesitusecloudflare.com/
 
 I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.
-If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.
+If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unnecessarily.
 
 You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
 
