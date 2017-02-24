@@ -7,7 +7,9 @@ This list will be narrowed down to the affected domains as I get more informatio
 
 
 ### HOW TO REMOVE YOUR SITE
-If your domain name is listed but it wasn't using any of the Cloudflare reverse proxy features, 
-this is how to remove your website from the list:
-If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, 
-I don't want to hurt anyone's reputation unecessarily.
+1. verify the site is static and contains no user data (I will remove it immediately once I confirm)
+OR
+1. Verify ownership, send me an email from @yourdomain.com, post a random nonce on the domain, or provide keybase proof
+2. Verify you are not using the Cloudflare TLS proxy
+
+I will not remove sites that contain user data and are returning `server:cloudflare-nginx` in response headers, since they may have been affected.
