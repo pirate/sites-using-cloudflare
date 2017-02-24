@@ -468,7 +468,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - etxt.ru
 - excellentbux.net
 - expatriates.com
-- experts-exchange.com ([not affected](https://www.experts-exchange.com/articles/29326/Cloudbleed-What-Does-It-Mean-and-Who-s-At-Risk.html))
+- experts-exchange.com ([no evidence of data leaked](https://www.experts-exchange.com/articles/29326/Cloudbleed-What-Does-It-Mean-and-Who-s-At-Risk.html))
 - explosm.net
 - express.com.pk
 - express.pk
