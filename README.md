@@ -85,18 +85,17 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - okcupid.com
 - zendesk.com
 - uber.com
-- namecheap.com ([no evidence of compromised data](https://status.namecheap.com/archives/30660))
 - poloniex.com
 - localbitcoins.com
 - kraken.com
 - 23andme.com
 - curse.com (and some other Curse sites like minecraftforum.net)
-- counsyl.com 
+- counsyl.com
 - tfl.gov.uk
+- namecheap.com ([no evidence of compromised data](https://status.namecheap.com/archives/30660))
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - glassdoor.com ([no evidence of compromised data](https://twitter.com/Glassdoor/status/835238343822589952))
 - vultr.com ([no evidence of compromised data](https://github.com/pirate/sites-using-cloudflare/issues/130))
-- stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
 - fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
 
