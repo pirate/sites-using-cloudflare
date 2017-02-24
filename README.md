@@ -1,5 +1,8 @@
 # List of Sites possibly affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
 
+
+### DISCLAIMER:
+This list contains *all* domains that use cloudflare DNS, not just the cloudflare SSL proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised.  This list will be narrowed down to the affected domains as I get more information.
 This is a (work-in-progress) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
@@ -38,9 +41,6 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 
 
 ## Full List
-
-### DISCLAIMER:
-This list contains *all* domains that use cloudflare DNS, not just the cloudflare SSL proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised.  This list will be narrowed down to the affected domains as I get more information.
 
 **Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/archive/master.zip) (22mb)**
 
