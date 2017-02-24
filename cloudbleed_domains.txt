@@ -1,3 +1,4 @@
+android-cdn-api.fitbit.com
 dmsprod.shrbt.com
 gateway.discord.gg
 secure.meetup.com
