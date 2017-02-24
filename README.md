@@ -70,7 +70,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 ## Search Tools
 You can search for domains which might affect you by using the web app @abalabahaha created to avoid having to download and search the file: [Search online](http://cloudflarelistcheck.abal.moe)
 
-Additionally, you can check out #37 for more tools to search the list (Thanks for all the dedication and commitment!)
+Additionally, you can check out [#37](https://github.com/pirate/sites-using-cloudflare/issues/37) for more tools to search the list (Thanks for all the dedication and commitment!)
 
 ## Notable Sites
 
