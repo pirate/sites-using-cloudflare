@@ -147,7 +147,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - 96down.com
 - abidjan.net
 - abs-cbnnews.com
-- adafruit.com
 - add-anime.net
 - addicted2success.com
 - addictinginfo.org
