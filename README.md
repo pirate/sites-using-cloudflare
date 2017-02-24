@@ -53,7 +53,6 @@ Some sources:
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - reddit.com
 - uber.com
-- lyft.com
 - upwork.com
 - codepen.io
 - medium.com
@@ -79,7 +78,6 @@ Some sources:
 - producthunt.com
 - bitpay.com
 - irccloud.com
-- betterment.com
 
 ## Alexa Top 10,000 affected sites:
 
