@@ -30,6 +30,9 @@ Some sources:
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
  - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
  - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
+ 
+I'd rather be safe than sorry so I've included any domain here that remotely touches cloudflare.
+If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.  You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respons as soon as I can.
 
 ==============
 
