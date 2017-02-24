@@ -1,13 +1,13 @@
 # List of Sites affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
 
-This is a (work-in-progress) list of domains affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).  
+This is a (work-in-progress) list of domains affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
 
 ## Impact
 
-**Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**  
+**Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**
 Data was cached by search engines, and may have been collected by random adversaries over the past few months.
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
@@ -16,7 +16,7 @@ You can see some of the leaked data yourself in search engine caches: https://du
 
 ## What should I do?
 
-Check your password managers and **change all your passwords**, especially those on these affected sites.  
+Check your password managers and **change all your passwords**, especially those on these affected sites.
 Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), so to be safe you should probably change all your important passwords.
 
@@ -30,7 +30,7 @@ Some sources:
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
  - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
  - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
- 
+
 I'd rather be safe than sorry so I've included any domain here that remotely touches cloudflare.
 If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.
 
@@ -39,9 +39,9 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 
 ## Full List
 
-**Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (23mb)**  
+**Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (21mb)**
 
-7,385,121 potentially affected domains.  Download this file, unzip it, then run `grep domaintocheck.com < sorted_unique_cf.txt` to see if a domain is present.
+4,287,625 potentially affected domains.  Download this file, unzip it, then run `grep domaintocheck.com < sorted_unique_cf.txt` to see if a domain is present.
 
 
 ## Notable Sites
@@ -50,6 +50,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - authy.com
 - coinbase.com
 - betterment.com
+- transferwise.com
 - prosper.com
 - digitalocean.com
 - patreon.com
@@ -63,10 +64,8 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - yelp.com
 - okcupid.com
 - zendesk.com
-- fastmail.com (does not proxy TLS, probably safe from this attack)
-- reddit.com
 - uber.com
-- transferwise.com
+- fastmail.com (does not proxy TLS, probably safe from this attack)
 
 ## Alexa Top 10,000 affected sites:
 
