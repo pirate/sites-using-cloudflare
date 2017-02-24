@@ -44,7 +44,7 @@ for domain in (cat ~/Desktop/alexa_10000.csv)
     end
 end
 ```
-The alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+The alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `sort -u`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
 
 Data sources:
  - https://stackshare.io/cloudflare
