@@ -40,6 +40,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 ## Full List
 
 ### DISCLAIMER:
+
 This list contains *all* domains that use cloudflare DNS, not just the cloudflare SSL proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised.  This list will be narrowed down to the affected domains as I get more information.
 
 **Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/archive/master.zip) (22mb)**
