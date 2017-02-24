@@ -46,7 +46,6 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 
 ## Notable Sites
 
-- 1password.com
 - authy.com
 - coinbase.com
 - betterment.com
@@ -65,10 +64,12 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - okcupid.com
 - zendesk.com
 - uber.com
-- fastmail.com (does not proxy TLS, probably safe from this attack)
+
 - poloniex.com
 - localbitcoins.com
 - kraken.com
+- fastmail.com (does not proxy TLS, probably safe from this attack)
+- 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
 
 ## Alexa Top 10,000 affected sites:
 
