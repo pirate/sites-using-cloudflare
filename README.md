@@ -69,6 +69,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - localbitcoins.com
 - kraken.com
 - 23andme.com
+- curse.com (and some other Curse sites like minecraftforum.net)
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
 
