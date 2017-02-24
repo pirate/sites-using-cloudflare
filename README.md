@@ -117,7 +117,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - discordapp.com
 - change.org
 - feedly.com
-- zoho.com
 - irccloud.com
 
 
