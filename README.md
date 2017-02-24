@@ -94,6 +94,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - counsyl.com
 - tfl.gov.uk
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
+- glassdoor.com ([no evidence of compromised data](https://twitter.com/Glassdoor/status/835238343822589952))
 - vultr.com ([no evidence of compromised data](https://github.com/pirate/sites-using-cloudflare/issues/130))
 - stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
 - fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
