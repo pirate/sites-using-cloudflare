@@ -28,7 +28,7 @@ Rotate API keys & secrets, and confirm you have 2-FA set up for important accoun
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
-**Submit PR's to add domains that you know are using cloudflare, or remove domains that are not affected.**
+**Submit PRs to add domains that you know are using cloudflare, or remove domains that are not affected.**
 
 ## Methodology
 
