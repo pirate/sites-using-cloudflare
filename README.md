@@ -17,6 +17,8 @@ Data was cached by search engines, and may have been collected by random adversa
 
 You can see some of the leaked data yourself in search engine caches: https://duckduckgo.com/?q=+%7B%22scheme%22%3A%22http%22%7D+CF-Host-Origin-IP&t=h_&ia=web
 
+Affected domains found in the wild: http://doma.io/2017/02/24/list-of-affected-cloudbleed-domains.html
+
 ## What should I do?
 
 Check your password managers and **change all your passwords**, especially those on these affected sites.
