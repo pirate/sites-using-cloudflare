@@ -4,7 +4,7 @@ This is a (work-in-progress) list of domains possibly affected by the [CloudBlee
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
 ### DISCLAIMER:
-This list contains *all* domains that use cloudflare DNS, not just the cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
+This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
 
@@ -13,7 +13,7 @@ Cloudflare has not provided an official list of affected domains, and likely wil
 **Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**
 Data was cached by search engines, and may have been collected by random adversaries over the past few months.
 
-Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was trigerred the response would include data from ANY other cloudfare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using CloudFare's proxy services (including HTTP & HTTPS proxy).
+Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was triggered the response would include data from ANY other Cloudflare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using Cloudflare's proxy services (including HTTP & HTTPS proxy).
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
@@ -24,16 +24,16 @@ Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-
 ## What should I do?
 
 Check your password managers and **change all your passwords**, especially those on these affected sites.
-Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
+Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* Cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
-**Submit PR's to add domains that you know are using cloudflare, or remove domains that are not affected.**
+**Submit PR's to add domains that you know are using Cloudflare, or remove domains that are not affected.**
 
 ## Methodology
 
-This list was compiled from 3 large dumps of all cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
-Crimeshare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
+This list was compiled from 3 large dumps of all Cloudflare customers provided by crimeflare.com/cfs.html, and several manually copy-pasted lists from stackshare.io and wappalyzer.com.
+Crimeflare collected their lists by doing NS DNS lookups on a large number of domains, and checking SSL certificate ownership.
 
 I scraped the Alexa top 10,000 by using a simple loop over the list:
 
@@ -44,18 +44,18 @@ for domain in (cat ~/Desktop/alexa_10000.csv)
     end
 end
 ```
-The alexa scrape, and the crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+The Alexa scrape, and the Crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
 
 Data sources:
  - https://stackshare.io/cloudflare
  - https://wappalyzer.com/applications/cloudflare
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
  - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
- - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
+ - http://www.crimeflare.com/cfs.html (scrape of all Cloudflare customers)
  - http://www.doesitusecloudflare.com/
 
-I'd rather be safe than sorry so I've included any domain here that remotely touches cloudflare.
-If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unecessarily.
+I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.
+If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unnecessarily.
 
 You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
 
