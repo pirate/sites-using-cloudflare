@@ -78,8 +78,8 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - counsyl.com
 - curse.com (and some other Curse sites like minecraftforum.net)
 - digitalocean.com
-- localbitcoins.com
 - kraken.com
+- localbitcoins.com
 - medium.com
 - okcupid.com
 - patreon.com
