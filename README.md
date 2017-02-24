@@ -44,7 +44,7 @@ for domain in (cat ~/Desktop/alexa_10000.csv)
     end
 end
 ```
-The Alexa scrape, and the Crimeflare dumps were then combined in a single text file, and passed through `uniq | sort`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
+The Alexa scrape, and the Crimeflare dumps were then combined in a single text file, and passed through `sort | uniq`.  I've since accepted several PRs and issues to remove sites that were unaffected from the list.
 
 Data sources:
  - https://stackshare.io/cloudflare
@@ -71,6 +71,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 
 - authy.com
 - coinbase.com
+- bitcoin.de
 - betterment.com
 - transferwise.com
 - prosper.com
@@ -92,6 +93,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - curse.com (and some other Curse sites like minecraftforum.net)
 - counsyl.com
 - tfl.gov.uk
+- account.leagueoflegends.com
 - namecheap.com ([no evidence of compromised data](https://status.namecheap.com/archives/30660))
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - glassdoor.com ([no evidence of compromised data](https://twitter.com/Glassdoor/status/835238343822589952))
@@ -1225,7 +1227,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - traidnt.net
 - tribune.com.pk
 - trndsys.co
-- trojmiasto.pl
 - trueactivist.com
 - truthaboutabs.com
 - tubeplus.me
