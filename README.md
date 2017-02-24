@@ -1,6 +1,6 @@
-# List of Sites affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
+# List of Sites possibly affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
 
-This is a (work-in-progress) list of domains affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
+This is a (work-in-progress) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what passwords to change.
