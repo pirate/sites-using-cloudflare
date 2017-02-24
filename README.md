@@ -64,7 +64,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - okcupid.com
 - zendesk.com
 - uber.com
-
+- namecheap.com
 - poloniex.com
 - localbitcoins.com
 - kraken.com
