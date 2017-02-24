@@ -91,7 +91,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - kraken.com
 - 23andme.com
 - curse.com (and some other Curse sites like minecraftforum.net)
-- counsyl.com
+- counsyl.com 
 - tfl.gov.uk
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - glassdoor.com ([no evidence of compromised data](https://twitter.com/Glassdoor/status/835238343822589952))
@@ -1154,7 +1154,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - taringa.net
 - taxheaven.gr
 - te3p.com
-- teamliquid.net
+- teamliquid.net ([not affected](https://twitter.com/R1CH_TL/status/835117417395326977))
 - techdirt.com
 - techinasia.com
 - tech-wd.com
