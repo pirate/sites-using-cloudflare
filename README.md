@@ -13,17 +13,20 @@ Cloudflare has not provided an official list of affected domains, and likely wil
 **Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**
 Data was cached by search engines, and may have been collected by random adversaries over the past few months.
 
+Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was trigerred the response would include data from ANY other cloudfare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using CloudFare's proxy services (including HTTP & HTTPS proxy).
+
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
 You can see some of the leaked data yourself in search engine caches: https://duckduckgo.com/?q=+%7B%22scheme%22%3A%22http%22%7D+CF-Host-Origin-IP&t=h_&ia=web
 
-Affected domains found in the wild: http://doma.io/2017/02/24/list-of-affected-cloudbleed-domains.html
+Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-affected-cloudbleed-domains.html
 
 ## What should I do?
 
 Check your password managers and **change all your passwords**, especially those on these affected sites.
-Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.
-Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), so to be safe you should probably change all your important passwords.
+Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
+
+Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
 **Submit PR's to add domains that you know are using cloudflare**
 
