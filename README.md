@@ -7,8 +7,8 @@ Cloudflare has not provided an official list of affected domains, and likely wil
 
 ## Impact
 
-Passwords, private messages, API keys, and other sensitive data were leaked by cloudflare to random requesters between these dates: **2016-09-22 - 2017-02-18 **.
-Data may be cached by search engines, or collected by random adversaries over the past few months.
+**Between 2016-09-22 - 2017-02-18 passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters.**  
+Data was cached by search engines, and may have been collected by random adversaries over the past few months.
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
@@ -36,7 +36,6 @@ If I've made a mistake and you believe your site is not affected, submit a PR an
 
 You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
 
-==============
 
 ## Full List
 
@@ -90,6 +89,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - feedly.com
 - zoho.com
 - irccloud.com
+
 
 - adf.ly
 - fiverr.com
