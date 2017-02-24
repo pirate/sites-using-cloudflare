@@ -66,6 +66,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - reddit.com
 - uber.com
+- transferwise.com
 
 ## Alexa Top 10,000 affected sites:
 
