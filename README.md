@@ -46,6 +46,7 @@ This list contains *all* domains that use cloudflare DNS, not just the cloudflar
 
 4,287,625 possibly affected domains.  Download this file, unzip it, then run `grep domaintocheck.com sorted_unique_cf.txt` to see if a domain is present.
 
+Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudflare-cloudbleed-bugs-impact-mobile-apps) that *may* have been affected.
 
 ## Notable Sites
 
