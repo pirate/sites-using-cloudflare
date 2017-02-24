@@ -46,6 +46,7 @@ Some sources:
 - authy.com
 - coinbase.com
 - betterment.com
+- prosper.com
 - digitalocean.com
 - patreon.com
 - bitpay.com
