@@ -57,7 +57,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 
 **Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/archive/master.zip) (22mb)**
 
-4,287,625 possibly affected domains.  Download this file, unzip it, then run `grep domaintocheck.com sorted_unique_cf.txt` to see if a domain is present.
+4,287,625 possibly affected domains.  Download this file, unzip it, then run `grep -x domaintocheck.com sorted_unique_cf.txt` to see if a domain is present.
 
 Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudflare-cloudbleed-bugs-impact-mobile-apps) that *may* have been affected.
 
