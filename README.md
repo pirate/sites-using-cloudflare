@@ -23,7 +23,6 @@ Some sources:
 - 2ch.net
 - 2ip.ru
 - 4chan.org
-- 4chan.org
 - 4dsply.com
 - 4pda.ru
 - 4tube.com
@@ -105,7 +104,6 @@ Some sources:
 - clixsense.com
 - cloudflare.com
 - codepen.io
-- codepen.io
 - coinbase.com
 - col3negoriginal.lk
 - colourlovers.com
@@ -127,7 +125,6 @@ Some sources:
 - desirulez.net
 - dev-point.com
 - digikala.com
-- digitalocean.com
 - digitalocean.com
 - digitalpoint.com
 - discord.com
@@ -161,7 +158,6 @@ Some sources:
 - extabit.com
 - extratorrent.cc
 - extratorrent.com
-- extratorrent.com
 - eyny.com
 - ezilon.com
 - eztv.it
@@ -170,14 +166,12 @@ Some sources:
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - fatakat.com
 - feedly.com
-- feedly.com
 - filelist.ro
 - filenuke.com
 - filgoal.com
 - filmifullizle.com
 - fishki.net
 - fitbit.com
-- fiverr.com
 - fiverr.com
 - fok.nl
 - fontspace.com
@@ -201,12 +195,10 @@ Some sources:
 - geenstijl.nl
 - geo.tv
 - getbootstrap.com
-- getbootstrap.com
 - gezinti.com
 - gfxtra.com
 - gfy.com
 - gigaom.com
-- glassdoor.com
 - glassdoor.com
 - globalewallet.com
 - godvine.com
@@ -265,7 +257,6 @@ Some sources:
 - joomlart.com
 - jotform.com
 - jquery.com
-- jquery.com
 - jqueryui.com
 - jusbrasil.com.br
 - justunfollow.com
@@ -301,7 +292,6 @@ Some sources:
 - maultalk.com
 - mazika2day.com
 - mediatakeout.com
-- medium.com
 - medium.com
 - megashare.info
 - members.webs.com
@@ -346,7 +336,6 @@ Some sources:
 - opensubtitles.org
 - orgasmatrix.com
 - pastebin.com
-- pastebin.com
 - patreon.com
 - pcadvisor.co.uk
 - pccomponentes.com
@@ -390,7 +379,6 @@ Some sources:
 - rawstory.com
 - realitatea.net
 - redbubble.com
-- reddit.com
 - reddit.com
 - resellerclub.com
 - ripoffreport.com
