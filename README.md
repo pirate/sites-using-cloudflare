@@ -23,7 +23,8 @@ I'm working on running a DNS scraper that will add thousands more domains to thi
 Some sources:
  - https://stackshare.io/cloudflare
  - https://wappalyzer.com/applications/cloudflare
- - DNS scraper I'm running on Alexa top 10,000 sites
+ - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
+ - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
 
 ==============
 
