@@ -117,7 +117,7 @@ You can search for domains which might affect you by using the web app @abalabah
 - laracasts.com
 - seriouseats.com
 - bitdefender.com
-- ziprecruiter.com
+- ziprecruiter.com (@zostay of ZipRecruiter confirms they are not affected)
 - glassdoor.com
 - pastebin.com
 - fitbit.com
