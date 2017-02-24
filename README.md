@@ -69,56 +69,59 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 
 ## Notable Sites
 
-- authy.com
-- coinbase.com
-- betterment.com
-- transferwise.com
-- prosper.com
-- digitalocean.com
-- patreon.com
-- bitpay.com
-- news.ycombinator.com
-- producthunt.com
-- medium.com
+- 23andme.com
 - 4chan.org
-- yelp.com
-- okcupid.com
-- zendesk.com
-- uber.com
-- namecheap.com ([not affected](https://status.namecheap.com/archives/30660))
-- poloniex.com
+- authy.com
+- betterment.com
+- bitpay.com
+- coinbase.com
+- counsyl.com
+- curse.com (and some other Curse sites like minecraftforum.net)
+- digitalocean.com
 - localbitcoins.com
 - kraken.com
-- 23andme.com
-- curse.com (and some other Curse sites like minecraftforum.net)
-- counsyl.com
+- medium.com
+- okcupid.com
+- patreon.com
+- poloniex.com
+- producthunt.com
+- prosper.com
 - tfl.gov.uk
-- stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
-- fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
+- transferwise.com
+- uber.com
+- news.ycombinator.com
+- yelp.com
+- zendesk.com
+
+### Not Affected
+
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
+- fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
+- namecheap.com ([not affected](https://status.namecheap.com/archives/30660))
+- stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
 
 ## Alexa Top 10,000 affected sites:
 
-- upwork.com
-- codepen.io
-- fiverr.com
-- thepiratebay.org
-- extratorrent.com
-- getbootstrap.com
-- jquery.com
-- laravel.com
-- laracasts.com
-- seriouseats.com
 - bitdefender.com
-- ziprecruiter.com
-- glassdoor.com
-- pastebin.com
-- fitbit.com
-- discordapp.com
 - change.org
+- codepen.io
+- discordapp.com
+- extratorrent.com
 - feedly.com
-- zoho.com
+- fitbit.com
+- fiverr.com
+- getbootstrap.com
+- glassdoor.com
 - irccloud.com
+- jquery.com
+- laracasts.com
+- laravel.com
+- pastebin.com
+- seriouseats.com
+- thepiratebay.org
+- upwork.com
+- ziprecruiter.com
+- zoho.com
 
 
 - 000webhost.com
