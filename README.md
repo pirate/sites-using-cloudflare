@@ -1,7 +1,7 @@
 # sites-using-cloudflare
 List of domains affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).  Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
-Check your password managers and change password on these affected sites.
+Check your password managers and change passwords on these affected sites.
 
 **Submit PR's to add domains that you know are using cloudflare**
 
