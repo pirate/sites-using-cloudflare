@@ -73,6 +73,9 @@ Some sources:
 
 (sorry theres a lot of porn sites in the full list, I dont have time to filter them out manually)
 
+**Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (23mb)**  
+Excerpt here:
+
 - adf.ly
 - fiverr.com
 - blogfa.com
