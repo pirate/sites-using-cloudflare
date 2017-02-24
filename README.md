@@ -68,6 +68,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - poloniex.com
 - localbitcoins.com
 - kraken.com
+- 23andme.com
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
 
