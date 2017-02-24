@@ -85,7 +85,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - glassdoor.com
 - pastebin.com
 - fitbit.com
-- discord.com
+- discordapp.com
 - change.org
 - feedly.com
 - zoho.com
