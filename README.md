@@ -34,3 +34,8 @@ Some sources:
 - seriouseats.com
 - bitdefender.com
 - ziprecruiter.com
+
+==============
+
+I'm working on running a DNS scraper that will add thousands of domains to this list automatically.
+In the meantime here's a short list of important sites that I've collected manually, please PR to add domains that run traffic through Cloudflare.
