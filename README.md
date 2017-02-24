@@ -72,7 +72,7 @@ This list contains *all* domains that use cloudflare DNS, not just the cloudflar
 - localbitcoins.com
 - kraken.com
 - 23andme.com
-- fastmail.com (does not proxy TLS, probably safe from this attack)
+- fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
 
 ## Alexa Top 10,000 affected sites:
