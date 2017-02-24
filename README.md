@@ -677,7 +677,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - inlinkz.com
 - inquirer.net
 - insight.ly
-- instantcheckmate.com
 - intercambiosvirtuales.org
 - intereconomia.com
 - internethaber.com
