@@ -62,6 +62,7 @@ Some sources:
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - reddit.com
 - uber.com
+- transferwise.com
 
 ## Alexa Top 10,000 affected sites:
 
