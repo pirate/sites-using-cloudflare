@@ -39,6 +39,15 @@ Some sources:
 - ziprecruiter.com
 - glassdoor.com
 - pastebin.com
+- stackoverflow.com
+- fitbit.com
+- discord.com
+- change.org
+- feedly.com
+- zoho.com
+- patreon.com
+- producthunt.com
+- bitpay.com
 
 ==============
 
