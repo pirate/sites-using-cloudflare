@@ -66,6 +66,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - zendesk.com
 - uber.com
 - fastmail.com (does not proxy TLS, probably safe from this attack)
+- poloniex.com
 
 ## Alexa Top 10,000 affected sites:
 
