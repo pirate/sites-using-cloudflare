@@ -20,7 +20,7 @@ Some sources:
 - okcupid.com
 - digitalocean.com
 - zendesk.com
-- fastmail.com
+- fastmail.com (does not proxy TLS, probably safe from this attack)
 - reddit.com
 - uber.com
 - lyft.com
