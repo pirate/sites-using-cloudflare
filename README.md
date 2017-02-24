@@ -1224,7 +1224,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - traidnt.net
 - tribune.com.pk
 - trndsys.co
-- trojmiasto.pl
 - trueactivist.com
 - truthaboutabs.com
 - tubeplus.me
