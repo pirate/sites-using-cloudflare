@@ -72,6 +72,7 @@ This list contains *all* domains that use cloudflare DNS, not just the cloudflar
 - localbitcoins.com
 - kraken.com
 - 23andme.com
+- curse.com (and some other Curse sites like minecraftforum.net)
 - counsyl.com
 - fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
