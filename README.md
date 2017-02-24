@@ -44,7 +44,7 @@ This list contains *all* domains that use cloudflare DNS, not just the cloudflar
 
 **Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (21mb)**
 
-4,287,625 potentially affected domains.  Download this file, unzip it, then run `grep domaintocheck.com < sorted_unique_cf.txt` to see if a domain is present.
+4,287,625 possibly affected domains.  Download this file, unzip it, then run `grep domaintocheck.com < sorted_unique_cf.txt` to see if a domain is present.
 
 
 ## Notable Sites
