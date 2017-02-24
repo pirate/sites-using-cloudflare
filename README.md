@@ -1156,7 +1156,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - techinasia.com
 - tech-wd.com
 - tecmundo.com.br
-- teespring.com
+- teespring.com ([no evidence of compromised data](https://www.reddit.com/r/admincraft/comments/5vy0gc/psa_cloudflare_leak_exposes_passwords_etc_for/de62zy0/))
 - telelistas.net
 - template-help.com
 - templatemonster.com
