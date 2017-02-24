@@ -64,7 +64,6 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 - okcupid.com
 - zendesk.com
 - fastmail.com (does not proxy TLS, probably safe from this attack)
-- reddit.com
 - uber.com
 - transferwise.com
 
