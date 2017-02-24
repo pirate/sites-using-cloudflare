@@ -31,3 +31,6 @@ Some sources:
 - getbootstrap.com
 - laravel.com
 - laracasts.com
+- seriouseats.com
+- bitdefender.com
+- ziprecruiter.com
