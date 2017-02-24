@@ -28,6 +28,8 @@ Rotate API keys & secrets, and confirm you have 2-FA set up for important accoun
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
 
+You can also check this site for checking your data has been a part of the breach : https://haveibeenpwned.com/
+
 **Submit PR's to add domains that you know are using cloudflare, or remove domains that are not affected.**
 
 ## Methodology
