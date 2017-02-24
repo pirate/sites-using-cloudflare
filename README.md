@@ -63,6 +63,7 @@ Some sources:
 - patreon.com
 - producthunt.com
 - bitpay.com
+- irccloud.com
 
 ------
 
