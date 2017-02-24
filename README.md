@@ -119,6 +119,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - feedly.com
 - zoho.com
 - irccloud.com
+- reddit.com
 
 
 - 000webhost.com
