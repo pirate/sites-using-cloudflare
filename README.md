@@ -15,6 +15,7 @@ Some sources:
 - news.ycombinator.com
 - coinbase.com
 - reddit.com
+- 4chan.org
 - yelp.com
 - okcupid.com
 - digitalocean.com
@@ -28,12 +29,16 @@ Some sources:
 - medium.com
 - fiverr.com
 - thepiratebay.org
+- extratorrent.com
 - getbootstrap.com
+- jquery.com
 - laravel.com
 - laracasts.com
 - seriouseats.com
 - bitdefender.com
 - ziprecruiter.com
+- glassdoor.com
+- pastebin.com
 
 ==============
 
