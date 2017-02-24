@@ -4,7 +4,7 @@ Before submitting your pull-request:
  - do not ask for removal of actually affected websites (any websites using cloudflare reverse proxy)
 
 ### HOW TO REMOVE YOUR SITE
-1. verify the site is static and contains no user data (I will remove it immediately once I confirm)  
+1. Verify the site is static and contains no user or sensitive data (I will remove it immediately once I confirm)  
 
 OR  
 
