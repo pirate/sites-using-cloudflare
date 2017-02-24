@@ -1240,6 +1240,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - twentytwowords.com
 - twitchy.com
 - typepad.com
+- uber.com
 - udemy.com
 - uludagsozluk.com
 - unitezz.com
