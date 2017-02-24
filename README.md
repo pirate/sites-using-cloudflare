@@ -1193,7 +1193,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - tickld.com
 - tielabs.com
 - tineye.com
-- tinhte.vn
 - tipsandtricks-hq.com
 - tmart.com
 - tn.com.ar
