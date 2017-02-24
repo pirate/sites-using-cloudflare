@@ -42,21 +42,31 @@ Some sources:
 
 ## Notable Sites
 
-- news.ycombinator.com
+- 1password.com
+- authy.com
 - coinbase.com
+- betterment.com
+- prosper.com
+- digitalocean.com
+- patreon.com
+- bitpay.com
+- news.ycombinator.com
+- producthunt.com
+- stackoverflow.com
+- medium.com
 - reddit.com
 - 4chan.org
 - yelp.com
 - okcupid.com
-- digitalocean.com
 - zendesk.com
 - fastmail.com (does not proxy TLS, probably safe from this attack)
 - reddit.com
 - uber.com
-- lyft.com
+
+## Alexa Top 10,000 affected sites:
+
 - upwork.com
 - codepen.io
-- medium.com
 - fiverr.com
 - thepiratebay.org
 - extratorrent.com
@@ -69,20 +79,12 @@ Some sources:
 - ziprecruiter.com
 - glassdoor.com
 - pastebin.com
-- stackoverflow.com
 - fitbit.com
 - discord.com
 - change.org
 - feedly.com
 - zoho.com
-- patreon.com
-- producthunt.com
-- bitpay.com
 - irccloud.com
-- betterment.com
-- prosper.com
-
-## Alexa Top 10,000 affected sites:
 
 - adf.ly
 - fiverr.com
