@@ -96,6 +96,7 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - stackoverflow.com (confirmed not affected by StackOverflow's @alienth)
 - fastmail.com ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
 - 1password.com ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
+- discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 
 ## Alexa Top 10,000 affected sites:
 
@@ -114,7 +115,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - glassdoor.com
 - pastebin.com
 - fitbit.com
-- discordapp.com
 - change.org
 - feedly.com
 - zoho.com
