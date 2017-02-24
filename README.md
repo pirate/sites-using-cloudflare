@@ -27,6 +27,7 @@ Some sources:
  - https://wappalyzer.com/applications/cloudflare
  - DNS scraper I'm running on Alexa top 10,000 sites (grepping for cloudflare in results)
  - https://www.cloudflare.com/ips/  (going to find sites that resolve to these IPs next)
+ - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
 
 ==============
 
