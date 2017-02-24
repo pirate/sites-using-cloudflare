@@ -12,6 +12,8 @@ Data may be cached by search engines, or collected by random adversaries over th
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
+You can see some of the leaked data yourself in search engine caches: https://duckduckgo.com/?q=+%7B%22scheme%22%3A%22http%22%7D+CF-Host-Origin-IP&t=h_&ia=web
+
 ## What should I do?
 
 Check your password managers and **change all your passwords**, especially those on these affected sites.  
@@ -30,6 +32,15 @@ Some sources:
  - http://www.crimeflare.com/cfs.html (scrape of all cloudflare customers)
 
 ==============
+
+## Full List
+
+**Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (23mb)**  
+
+7,385,121 potentially affected domains.  Download this file, unzip it, then run `grep domaintocheck.com < sorted_unique_cf.txt` to see if a domain is present.
+
+
+## Notable Sites
 
 - news.ycombinator.com
 - coinbase.com
@@ -69,12 +80,7 @@ Some sources:
 - bitpay.com
 - irccloud.com
 
-------
-
-(sorry theres a lot of porn sites in the full list, I dont have time to filter them out manually)
-
-**Download the [full list.zip](https://github.com/pirate/sites-using-cloudflare/raw/master/sorted_unique.zip) (23mb)**  
-Excerpt here:
+## Alexa Top 10,000 affected sites:
 
 - adf.ly
 - fiverr.com
