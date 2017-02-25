@@ -132,6 +132,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - change.org
 - feedly.com
 - irccloud.com
+- reddit.com
 
 
 - 000webhost.com
