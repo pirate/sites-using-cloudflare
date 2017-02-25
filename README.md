@@ -74,9 +74,7 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudflare-cloudbleed-bugs-impact-mobile-apps) that *may* have been affected.
 
 ## Search Tools
-You can search for domains which might affect you by using the web app @abalabahaha created to avoid having to download and search the file: [Search online](http://cloudflarelistcheck.abal.moe)
-
-Additionally, you can check out [#37](https://github.com/pirate/sites-using-cloudflare/issues/37) for more tools to search the list (Thanks for all the dedication and commitment!)
+Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/List-Search-Tools) for an extensive list of websites & scripts to search through the list. You may submit new ones by creating a new issue.
 
 ## Notable Sites
 
