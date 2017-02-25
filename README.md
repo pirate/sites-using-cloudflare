@@ -1169,7 +1169,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - techinasia.com
 - tech-wd.com
 - tecmundo.com.br
-- teespring.com ([no evidence of compromised data](https://www.reddit.com/r/admincraft/comments/5vy0gc/psa_cloudflare_leak_exposes_passwords_etc_for/de62zy0/))
+- teespring.com ([evidence of some leaked data](https://duckduckgo.com/?q=%22Set-SSL-Name%22+site%3Amerlim.network&t=h_&ia=web))
 - telelistas.net
 - template-help.com
 - templatemonster.com
