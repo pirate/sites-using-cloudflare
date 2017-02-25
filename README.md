@@ -82,7 +82,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - betterment.com
 - transferwise.com
 - prosper.com
-- digitalocean.com
+- digitalocean.com ([no leaked data found in several search engine caches](https://www.digitalocean.com/company/blog/digitalocean-your-data-and-the-cloudflare-vulnerability/))
 - patreon.com
 - bitpay.com
 - news.ycombinator.com
