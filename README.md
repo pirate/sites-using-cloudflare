@@ -249,7 +249,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - avaaz.org
 - avaz.ba
 - avazutracking.net
-- avito.ma
 - avito.ru (confirmed by @toogle from Avito.ru as not affected)
 - avn.info.ve
 - azertag.com
