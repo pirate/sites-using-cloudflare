@@ -25,7 +25,11 @@ Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-
 
 ## What should I do?
 
-Check your password managers and **change all your passwords**, especially those on these affected sites.
+The most important thing you can do is ask your vendors and sites to reset all their session tokens, as more response data was leaked than request data, and responses generally contain session tokens rather than passwords.
+If websites you use have a button to "log out all active sessions", use it.  Since sites may be compromised this week due to data discovered in caches, it's best to also do this again in a week or two after everything settles down.
+If website you use don't have an option to log out all active sessions, contact them and pressure them to reset all their session tokens.
+
+To be extra safe, you should probably check your password managers and **change all your passwords**, especially those on these affected sites.
 Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* Cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
 
 Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
