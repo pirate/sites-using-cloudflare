@@ -1097,7 +1097,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [smallseotools.com](http://smallseotools.com)
 - [smartinsights.com](http://smartinsights.com)
 - [smartpassiveincome.com](http://smartpassiveincome.com)
-- [smartprix.com](http://smartprix.com)
 - [smosh.com](http://smosh.com)
 - [snapwidget.com](http://snapwidget.com)
 - [soccermanager.com](http://soccermanager.com)
