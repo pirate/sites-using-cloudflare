@@ -124,7 +124,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - laracasts.com
 - seriouseats.com
 - bitdefender.com
-- ziprecruiter.com
+- ziprecruiter.com (@zostay of ZipRecruiter confirms they are not affected)
 - glassdoor.com
 - pastebin.com
 - fitbit.com
