@@ -19,7 +19,7 @@ Requests to sites with the HTML rewrite features enabled triggered a pointer mat
 
  "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- [source](https://news.ycombinator.com/item?id=13719518)
 
-You can see some of the leaked data yourself in search engine caches: https://duckduckgo.com/?q=+%7B%22scheme%22%3A%22http%22%7D+CF-Host-Origin-IP&t=h_&ia=web
+~~You can see some of the leaked data yourself in search engine caches: https://duckduckgo.com/?q=+%7B%22scheme%22%3A%22http%22%7D+CF-Host-Origin-IP&t=h_&ia=web~~ (2/25/2017) DuckDuckGo has removed this data
 
 Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-affected-cloudbleed-domains.html
 
