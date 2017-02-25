@@ -91,7 +91,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - 4chan.org
 - yelp.com
 - okcupid.com
-- zendesk.com
+- zendesk.com ([not affected](https://help.zendesk.com/hc/en-us/articles/115003417127))
 - uber.com
 - poloniex.com
 - localbitcoins.com
