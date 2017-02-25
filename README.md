@@ -67,7 +67,6 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 
 4,287,625 possibly affected domains.  Download this file, unzip it, then run `grep -x domaintocheck.com sorted_unique_cf.txt` to see if a domain is present.
 
-Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudflare-cloudbleed-bugs-impact-mobile-apps) that *may* have been affected.
 
 ## Search Tools
 You can search for domains which might affect you by using the web app @abalabahaha created to avoid having to download and search the file: [Search online](http://cloudflarelistcheck.abal.moe)
@@ -1372,3 +1371,5 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - zoomit.ir
 - zurb.com
 - zwaar.net
+- jump.software
+- tshock.co
