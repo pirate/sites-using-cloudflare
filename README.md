@@ -690,7 +690,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - inlinkz.com
 - inquirer.net
 - insight.ly
-- instantcheckmate.com
 - intercambiosvirtuales.org
 - intereconomia.com
 - internethaber.com
