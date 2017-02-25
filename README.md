@@ -6,7 +6,7 @@ Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id
 ### DISCLAIMER:
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
-Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what sessions to reset and passwords to change.  
+Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what sessions to reset and passwords to change.
 
 See [issue #127](https://github.com/pirate/sites-using-cloudflare/issues/127#issuecomment-282385955) and [issue #87](https://github.com/pirate/sites-using-cloudflare/issues/87#issuecomment-282372235) for additional info about which sites are likely to be affected.
 
@@ -86,7 +86,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [betterment.com](http://betterment.com)
 - [transferwise.com](http://transferwise.com)
 - [prosper.com](http://prosper.com)
-- [digitalocean.com](https://digitalocean.com) ([no leaked data found in several search engine caches](https://www.digitalocean.com/company/blog/digitalocean-your-data-and-the-cloudflare-vulnerability/))
 - [patreon.com](http://patreon.com)
 - [bitpay.com](http://bitpay.com)
 - [news.ycombinator.com](http://news.ycombinator.com)
@@ -108,8 +107,9 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [myaccount.nytimes.com](http://myaccount.nytimes.com)
 - [technicpack.net](http://technicpack.net)
 - [cloudflare.com](http://cloudflare.com)
-- [namecheap.com](http://namecheap.com) ([no leaked data found in several search engine caches](https://status.namecheap.com/archives/30660))
 - [discordapp.com](http://discordapp.com) ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
+- [digitalocean.com](https://digitalocean.com) ([no leaked data found in several search engine caches](https://www.digitalocean.com/company/blog/digitalocean-your-data-and-the-cloudflare-vulnerability/))
+- [namecheap.com](http://namecheap.com) ([no leaked data found in several search engine caches](https://status.namecheap.com/archives/30660))
 - [glassdoor.com](http://glassdoor.com) ([no leaked data found in several search engine caches](https://twitter.com/Glassdoor/status/835238343822589952))
 - [vultr.com](http://vultr.com) ([no leaked data found in several search engine caches](https://github.com/pirate/sites-using-cloudflare/issues/130))
 - [fastmail.com](http://fastmail.com) ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
@@ -483,7 +483,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [etxt.ru](http://etxt.ru)
 - [excellentbux.net](http://excellentbux.net)
 - [expatriates.com](http://expatriates.com)
-- [experts-exchange.com](http://experts-exchange.com) ([no evidence of data leaked](https://www.experts-exchange.com/articles/29326/Cloudbleed-What-Does-It-Mean-and-Who-s-At-Risk.html))
+- [experts-exchange.com](http://experts-exchange.com) ([no leaked data found in several search engine caches](https://www.experts-exchange.com/articles/29326/Cloudbleed-What-Does-It-Mean-and-Who-s-At-Risk.html))
 - [explosm.net](http://explosm.net)
 - [express.com.pk](http://express.com.pk)
 - [express.pk](http://express.pk)
@@ -1147,7 +1147,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [stereogum.com](http://stereogum.com)
 - [stocktwits.com](http://stocktwits.com)
 - [stopforumspam.com](http://stopforumspam.com)
-- [storenvy.com](http://storenvy.com) ([no evidence of data leaked](https://twitter.com/Storenvy/status/831638898354778112))
+- [storenvy.com](http://storenvy.com)
 - [streamhunter.eu](http://streamhunter.eu)
 - [stream-tv.me](http://stream-tv.me)
 - [stuffgate.com](http://stuffgate.com)
@@ -1166,7 +1166,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [taringa.net](http://taringa.net)
 - [taxheaven.gr](http://taxheaven.gr)
 - [te3p.com](http://te3p.com)
-- [teamliquid.net](http://teamliquid.net) ([not affected](https://twitter.com/R1CH_TL/status/835117417395326977))
+- [teamliquid.net](http://teamliquid.net) ([not proxied by CF and not affected](https://twitter.com/R1CH_TL/status/835117417395326977))
 - [techdirt.com](http://techdirt.com)
 - [techinasia.com](http://techinasia.com)
 - [tech-wd.com](http://tech-wd.com)
