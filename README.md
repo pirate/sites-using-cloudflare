@@ -103,6 +103,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - account.leagueoflegends.com
 - myaccount.nytimes.com
 - technicpack.net
+- cloudflare.com
 - namecheap.com ([no leaked data found in several search engine caches](https://status.namecheap.com/archives/30660))
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - glassdoor.com ([no leaked data found in several search engine caches](https://twitter.com/Glassdoor/status/835238343822589952))
