@@ -1147,7 +1147,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - [stereogum.com](http://stereogum.com)
 - [stocktwits.com](http://stocktwits.com)
 - [stopforumspam.com](http://stopforumspam.com)
-- [storenvy.com](http://storenvy.com) ([no evidence of data leaked](https://twitter.com/Storenvy/status/831638898354778112))
+- [storenvy.com](http://storenvy.com)
 - [streamhunter.eu](http://streamhunter.eu)
 - [stream-tv.me](http://stream-tv.me)
 - [stuffgate.com](http://stuffgate.com)
