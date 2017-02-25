@@ -130,7 +130,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - discordapp.com
 - change.org
 - feedly.com
-- zoho.com
 - irccloud.com
 
 
