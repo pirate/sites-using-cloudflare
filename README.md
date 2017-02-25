@@ -101,6 +101,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - counsyl.com
 - tfl.gov.uk
 - account.leagueoflegends.com
+- myaccount.nytimes.com
 - namecheap.com ([no evidence of compromised data](https://status.namecheap.com/archives/30660))
 - discordapp.com ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - glassdoor.com ([no evidence of compromised data](https://twitter.com/Glassdoor/status/835238343822589952))
