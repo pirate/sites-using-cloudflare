@@ -126,7 +126,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - ziprecruiter.com
 - glassdoor.com
 - pastebin.com
-- fitbit.com
 - discordapp.com
 - change.org
 - feedly.com
