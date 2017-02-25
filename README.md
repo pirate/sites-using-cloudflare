@@ -805,6 +805,7 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - matthewwoodward.co.uk
 - maultalk.com
 - maxicep.com
+- maxmind.com
 - mazika2day.com
 - mediapart.fr (not proxified by CF and not affected)
 - mediatakeout.com
