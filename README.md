@@ -160,7 +160,6 @@ Additionally, you can check out [#37](https://github.com/pirate/sites-using-clou
 - 96down.com
 - abidjan.net
 - abs-cbnnews.com
-- adafruit.com
 - add-anime.net
 - addicted2success.com
 - addictinginfo.org
