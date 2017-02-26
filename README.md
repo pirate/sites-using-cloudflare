@@ -105,6 +105,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [myaccount.nytimes.com](http://myaccount.nytimes.com)
 - [technicpack.net](http://technicpack.net)
 - [cloudflare.com](http://cloudflare.com)
+- [blockchain.info](http://blockchain.info)
 - [discordapp.com](http://discordapp.com) ([affected](https://blog.discordapp.com/safety-jim-psa-cloudflare-security-issue-77a4ecc48298))
 - [digitalocean.com](https://digitalocean.com) ([no leaked data found in several search engine caches](https://www.digitalocean.com/company/blog/digitalocean-your-data-and-the-cloudflare-vulnerability/))
 - [namecheap.com](http://namecheap.com) ([no leaked data found in several search engine caches](https://status.namecheap.com/archives/30660))
@@ -112,7 +113,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [vultr.com](http://vultr.com) ([no leaked data found in several search engine caches](https://github.com/pirate/sites-using-cloudflare/issues/130))
 - [fastmail.com](http://fastmail.com) ([not affected](https://twitter.com/FastMail/status/834939787924557824), [#2](https://news.ycombinator.com/item?id=13720050))
 - [1password.com](http://1password.com) ([not affected](https://discussions.agilebits.com/discussion/comment/356869/#Comment_356869))
-- [blockchain.info](http://blockchain.info)
 
 ## Alexa Top 10,000 on Cloudflare DNS:
 
