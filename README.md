@@ -292,6 +292,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [blekko.com](http://blekko.com)
 - [blinklist.com](http://blinklist.com)
 - [blip.tv](http://blip.tv)
+- [blockchain.info](http://blockchain.info)
 - [blogcatalog.com](http://blogcatalog.com)
 - [blogfa.com](http://blogfa.com)
 - [blogs.com](http://blogs.com)
