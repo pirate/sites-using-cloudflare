@@ -132,7 +132,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [fitbit.com](http://fitbit.com)
 - [discordapp.com](http://discordapp.com)
 - [change.org](http://change.org)
-- [feedly.com](http://feedly.com)
+- [feedly.com](http://feedly.com) ([affected](https://blog.feedly.com/incident-report-on-cloudflare-parser-bug/))
 - [irccloud.com](http://irccloud.com)
 - [000webhost.com](http://000webhost.com)
 - [1001freefonts.com](http://1001freefonts.com)
