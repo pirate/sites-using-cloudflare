@@ -101,7 +101,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [curse.com](http://curse.com) (and some other Curse sites like [minecraftforum.net](http://minecraftforum.net))
 - [counsyl.com](http://counsyl.com)
 - [tfl.gov.uk](http://tfl.gov.uk)
-- [account.leagueoflegends.com](http://account.leagueoflegends.com)
 - [myaccount.nytimes.com](http://myaccount.nytimes.com)
 - [technicpack.net](http://technicpack.net)
 - [cloudflare.com](http://cloudflare.com)
