@@ -579,7 +579,6 @@ Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudf
 - godvine.com
 - gofuckbiz.com
 - gogoanime.com
-- goldenline.pl (confirmed by @gfilipiak from GoldenLine.pl as not affected)
 - goldesel.to
 - goldporntube.com
 - goldprice.org
