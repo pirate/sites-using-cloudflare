@@ -592,7 +592,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [godvine.com](http://godvine.com)
 - [gofuckbiz.com](http://gofuckbiz.com)
 - [gogoanime.com](http://gogoanime.com)
-- [goldenline.pl](http://goldenline.pl)
 - [goldesel.to](http://goldesel.to)
 - [goldporntube.com](http://goldporntube.com)
 - [goldprice.org](http://goldprice.org)
