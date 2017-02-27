@@ -81,7 +81,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [authy.com](http://authy.com)
 - [coinbase.com](http://coinbase.com)
 - [bitcoin.de](http://bitcoin.de)
-- [betterment.com](http://betterment.com)
+- [betterment.com](http://betterment.com) ([not affected](https://support.betterment.com/customer/portal/articles/2752560-was-my-information-affected-by-the-cloudflare-vulnerability-))
 - [transferwise.com](http://transferwise.com)
 - [prosper.com](http://prosper.com)
 - [patreon.com](http://patreon.com)
