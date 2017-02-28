@@ -622,7 +622,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [hawamer.com](http://hawamer.com)
 - [hawkhost.com](http://hawkhost.com)
 - [hayah.cc](http://hayah.cc)
-- [hdfcbank.com](http://hdfcbank.com)
 - [healthkart.com](http://healthkart.com)
 - [heavy-r.com](http://heavy-r.com)
 - [hespress.com](http://hespress.com)
