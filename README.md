@@ -837,7 +837,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [moddb.com](http://moddb.com)
 - [moneymakergroup.com](http://moneymakergroup.com)
 - [monova.org](http://monova.org)
-- [moodle.org](http://moodle.org)
+- [moodle.org](http://moodle.org) ([no leaked data found in several search engine caches](https://moodle.org/mod/forum/discuss.php?d=348192))
 - [morguefile.com](http://morguefile.com)
 - [moveon.org](http://moveon.org)
 - [movie4k.to](http://movie4k.to)
