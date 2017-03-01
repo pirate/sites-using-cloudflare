@@ -998,6 +998,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [qaynar.info](http://qaynar.info)
 - [q.gs](http://q.gs)
 - [questionablecontent.net](http://questionablecontent.net)
+- [quizlet.com] (http://quizlet.com)
 - [r10.net](http://r10.net)
 - [racing-games.com](http://racing-games.com)
 - [radiojavan.com](http://radiojavan.com)
