@@ -129,7 +129,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [laracasts.com](http://laracasts.com)
 - [seriouseats.com](http://seriouseats.com)
 - [bitdefender.com](http://bitdefender.com)
-- [ziprecruiter.com](http://ziprecruiter.com)
+- [ziprecruiter.com](http://ziprecruiter.com) ([no leaked data found in several search engine caches](https://twitter.com/ZipRecruiter/status/836384335791964160))
 - [glassdoor.com](http://glassdoor.com)
 - [pastebin.com](http://pastebin.com)
 - [fitbit.com](http://fitbit.com)
