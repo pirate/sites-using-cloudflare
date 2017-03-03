@@ -729,7 +729,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 - [jvzoo.com](http://jvzoo.com)
 - [kaban.tv](http://kaban.tv)
 - [kalahari.com](http://kalahari.com)
-- [kanui.com.br](http://kanui.com.br)
 - [karnaval.com](http://karnaval.com)
 - [katproxy.com](http://katproxy.com)
 - [keep2share.cc](http://keep2share.cc)
