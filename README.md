@@ -81,7 +81,7 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 
 ## Notable Sites
 
-- [authy.com](http://authy.com)
+- [authy.com](http://authy.com) ([no leaked data found in several search engine caches](https://www.authy.com/blog/security-notice-authy-response-to-cloudflare-cloudbleed-incident/))
 - [coinbase.com](http://coinbase.com)
 - [bitcoin.de](http://bitcoin.de)
 - [betterment.com](http://betterment.com)
