@@ -118,7 +118,6 @@ Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/
 
 ## Alexa Top 10,000 on Cloudflare DNS:
 
-- [upwork.com](http://upwork.com)
 - [codepen.io](http://codepen.io)
 - [fiverr.com](http://fiverr.com)
 - [thepiratebay.org](http://thepiratebay.org)
