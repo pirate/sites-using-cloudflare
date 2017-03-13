@@ -7,6 +7,7 @@ Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id
 https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
 
 ### DISCLAIMER:
+####This list should be disregarded as either accurate or up to date. It exists to remain as an archive.
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
 Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what sessions to reset and passwords to change.
