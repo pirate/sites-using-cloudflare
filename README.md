@@ -1,15 +1,17 @@
-# List of Sites possibly affected by Cloudflare's #Cloudbleed HTTPS Traffic Leak
+# List of Sites on Cloudflare DNS (archived)
 
-This is a (work-in-progress) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
+This is an (archived) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
-**Update:** Cloudflare has posted a very detailed response, explaining exactly what the implications of this leak are.  It thoroughly explains their language in earlier statements, and I highly recommend reading it before looking through this list for domains:
+Cloudflare has posted a very detailed response, explaining exactly what the implications of this leak are.  It thoroughly explains their language in earlier statements, and I highly recommend reading it before looking through this list for domains:
 https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
 
 ### DISCLAIMER:
+List this is archived an no longer under active maintenance.  It may contain stale or inaccurate data that will not be corrected.
+
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
-Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compiling an unofficial list here so you know what sessions to reset and passwords to change.
+Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compilied an unofficial list here so you know where to start searching for sessions to reset and passwords to change.
 
 See [issue #127](https://github.com/pirate/sites-using-cloudflare/issues/127#issuecomment-282385955) and [issue #87](https://github.com/pirate/sites-using-cloudflare/issues/87#issuecomment-282372235) for additional info about which sites are likely to be affected.
 
@@ -32,12 +34,10 @@ The most important thing you can do is ask your vendors and sites to reset all t
 If websites you use have a button to "log out all active sessions", use it.  Since sites may be compromised this week due to data discovered in caches, it's best to also do this again in a week or two after everything settles down.
 If websites you use don't have an option to log out all active sessions, contact them and pressure them to rotate all their session tokens.
 
-To be extra safe, you should probably check your password managers and **change all your passwords**, especially those on these affected sites.
-Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* Cloudflare proxy customers were vulnerable to having data leaked, it's better to be safe than sorry.
+To be extra safe, you may want to check your password managers and change crucial passwords, especially those on these affected sites.
+Rotate API keys & secrets, and confirm you have 2-FA set up for important accounts.  This might sound like fear-mongering, but the scope of this leak is truly massive, and due to the fact that *all* Cloudflare proxy customers were vulnerable to having data leaked, many of the extra cautious people out there would rather be safe than sorry.
 
-Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one), *you should probably change all your important passwords*.
-
-**Submit PR's to add domains that you know are using Cloudflare, or remove domains that are not affected.**
+Theoretically sites not in this list can also be affected (because an affected site could have made an API request to a non-affected one).
 
 ## Methodology
 
@@ -63,10 +63,9 @@ Data sources:
  - http://www.crimeflare.com/cfs.html (scrape of all Cloudflare customers)
  - http://www.doesitusecloudflare.com/
 
-I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.
-If I've made a mistake and you believe your site is not affected, submit a PR and I will merge it ASAP, I don't want to hurt anyone's reputation unnecessarily.
-
-You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) and I'll respond as soon as I can.
+I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.  **Don't point end-users to this list please, it has too many false positives to be useful for non-analytical purposes**.
+I'm no longer accepting PRs to remove sites from the list, our previous process to remove sites was error-prone and labor intensive.  The list is now in archive mode, consider it defunct.
+If you think for some reason this will greatly impact you or your users, DM me on twitter.
 
 ## Full List
 
@@ -77,7 +76,10 @@ You can also ping me on twitter [@theSquashSH](https://twitter.com/thesquashsh) 
 Also, a list of some [iOS apps](https://www.nowsecure.com/blog/2017/02/23/cloudflare-cloudbleed-bugs-impact-mobile-apps) that *may* have been affected.
 
 ## Search Tools
-Check out [our wiki page](https://github.com/pirate/sites-using-cloudflare/wiki/List-Search-Tools) for an extensive list of websites & scripts to search through the list. You may submit new ones by creating a new issue.
+
+There are several tools out there to search the list, I wont endorse any here due to them having greatly varying degrees of accuracy.
+Please do not make user-facing tools to search the list or cross-reference it with browser history, this list has too many false positives to use for that purpose.
+You will make users lose trust in many sites, despite there being less than a 1 in a million chance of them having data leaked.
 
 ## Notable Sites
 
