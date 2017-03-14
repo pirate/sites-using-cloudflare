@@ -7,11 +7,11 @@ Cloudflare has posted a very detailed response, explaining exactly what the impl
 https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
 
 ### DISCLAIMER:
-List this is archived and no longer under active maintenance.  It may contain stale or inaccurate data that will not be corrected.  Do not link to it from press releases, it is not intended for end-users.  If people want to find it, they can Google for it.
+This list is archived and no longer under active maintenance.  It may contain stale or inaccurate data that will not be corrected.  Do not link to it from press releases, it is not intended for end-users.  If people want to find it, they can Google it.
 
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
-Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I'm compilied an unofficial list here so you know where to start searching for sessions to reset and passwords to change.
+Cloudflare has not provided an official list of affected domains, and likely will not due to privacy concerns.  I've compiled an unofficial list here so you know where to start searching for sessions to reset and passwords to change.
 
 See [issue #127](https://github.com/pirate/sites-using-cloudflare/issues/127#issuecomment-282385955) and [issue #87](https://github.com/pirate/sites-using-cloudflare/issues/87#issuecomment-282372235) for additional info about which sites are likely to be affected.
 
