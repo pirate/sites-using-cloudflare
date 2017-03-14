@@ -7,7 +7,7 @@ Cloudflare has posted a very detailed response, explaining exactly what the impl
 https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/
 
 ### DISCLAIMER:
-List this is archived and no longer under active maintenance.  It may contain stale or inaccurate data that will not be corrected.
+List this is archived and no longer under active maintenance.  It may contain stale or inaccurate data that will not be corrected.  Do not link to it from press releases, it is not intended for end-users.  If people want to find it, they can Google for it.
 
 This list contains *all* domains that use Cloudflare DNS, not just the Cloudflare proxy (the affected service that leaked data).  It's a broad sweeping list that includes everything.  Just because a domain is on the list does not mean the site is compromised, and sites may be compromised that do not appear on this list.
 
