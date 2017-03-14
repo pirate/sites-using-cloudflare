@@ -1,6 +1,6 @@
 # List of Sites on Cloudflare DNS (archived)
 
-This is an (archived) list of domains possibly affected by the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/).
+This is an (archived) list of sites on Cloudflare DNS at the time of the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/) announcement.
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
 
 Cloudflare has posted a very detailed response, explaining exactly what the implications of this leak are.  It thoroughly explains their language in earlier statements, and I highly recommend reading it before looking through this list for domains:
