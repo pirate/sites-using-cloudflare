@@ -64,7 +64,7 @@ Data sources:
  - http://www.doesitusecloudflare.com/
 
 I'd rather be safe than sorry so I've included any domain here that remotely touches Cloudflare.  **Don't point end-users to this list please, it has too many false positives to be useful for non-analytical purposes**.
-I'm no longer accepting PRs to remove sites from the list, our previous process to remove sites was error-prone and labor intensive.  The list is now in archive mode, consider it defunct.
+I'm no longer accepting PRs to remove sites from the list, our previous [process to remove sites](https://github.com/pirate/sites-using-cloudflare/issues/213) was error-prone and labor intensive.  The list is now in archive mode, consider it defunct.
 If you think for some reason this will greatly impact you or your users, DM me on twitter.
 
 ## Full List
