@@ -854,7 +854,7 @@ You will make users lose trust in many sites, despite there being less than a 1 
 - [mybb.com](http://mybb.com)
 - [mybroadband.co.za](http://mybroadband.co.za)
 - [mydealz.de](http://mydealz.de)
-- [mydigitallife.info](http://mydigitallife.info)
+- [mydigitallife.info](http://mydigitallife.info) ([confirmed by Daz](https://forums.mydigitallife.info/threads/73308-List-of-Sites-possibly-affected-by-Cloudflare-s-Cloudbleed-HTTPS-Traffic-Leak?p=1321465&viewfull=1#post1321465) from MDL as not affected)
 - [myegy.com](http://myegy.com)
 - [mygully.com](http://mygully.com)
 - [mylikes.com](http://mylikes.com)
