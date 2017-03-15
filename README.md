@@ -731,7 +731,6 @@ You will make users lose trust in many sites, despite there being less than a 1 
 - [jvzoo.com](http://jvzoo.com)
 - [kaban.tv](http://kaban.tv)
 - [kalahari.com](http://kalahari.com)
-- [kanui.com.br](http://kanui.com.br)
 - [karnaval.com](http://karnaval.com)
 - [katproxy.com](http://katproxy.com)
 - [keep2share.cc](http://keep2share.cc)
